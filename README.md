@@ -3,10 +3,10 @@
 This is a demo application boilerplate on how to start using [serverless](https://serverless.com/) 
 framework, in 2 different lambda runtimes integrated trough API gateway on aws. It will be used for presentation purposes.
 
-Usage:
-General Requirements: nodejs
-for C# [dotnet core SDK](https://www.microsoft.com/net/download/core), 
-After that have to make sure that ```dotnet``` command available in shell
+Instalation and config:
+  - General: nodejs
+  - for C# [dotnet core SDK](https://www.microsoft.com/net/download/core), 
+    - after that have to make sure that ```dotnet``` command available in shell
 
 1. ```npm install serverless -g``` installs serverless CLI
 2. ```serverless config credentials ...``` configures appropriate credentials
