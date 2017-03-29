@@ -1,0 +1,6 @@
+**/.serverless
+
+nodejs/node_modules
+
+csharp/bin
+csharp/obj

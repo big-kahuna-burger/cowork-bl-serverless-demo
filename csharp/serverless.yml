@@ -1,0 +1,16 @@
+service: coworking-demo-csharp
+provider:
+  name: aws
+  runtime: dotnetcore1.0
+package:
+  artifact: bin/release/netcoreapp1.0/publish/deploy-package.zip
+
+functions:
+  hello:
+    handler: CsharpHandlers::AwsDotnetCsharp.Handler::Hello
+    integration: lambda
+    events:
+      - http:
+          path: hello
+          method: get
+          cors: true
