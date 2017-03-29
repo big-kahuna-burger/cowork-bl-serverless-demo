@@ -5,6 +5,7 @@ provider:
 functions:
   hello:
     handler: handler.hello
+    integration: lambda
     events:
       - http:
           path: hello
