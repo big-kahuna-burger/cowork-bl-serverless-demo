@@ -4,7 +4,7 @@
   "description": "Example application in javascript to show usage of lambda computing capabilites",
   "main": "index.js",
   "scripts": {
-    "test": "node test/index.js"
+    "test": "node test/integration.js && standard"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/big-kahuna-burger/cowork-bl-serverless-demo/issues"
   },
-  "homepage": "https://github.com/big-kahuna-burger/cowork-bl-serverless-demo#readme"
+  "homepage": "https://github.com/big-kahuna-burger/cowork-bl-serverless-demo#readme",
+  "devDependencies": {
+    "concat-stream": "^1.6.0",
+    "hyperquest": "^2.1.2",
+    "standard": "^9.0.2",
+    "tape": "^4.6.3"
+  }
 }
